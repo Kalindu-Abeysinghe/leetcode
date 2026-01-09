@@ -1,0 +1,21 @@
+customer_id,transaction_date,amount,product_category,store_location
+C001,2024-01-15,125.50,Electronics,New York
+C002,2024-01-16,89.99,Clothing,Los Angeles
+C001,2024-01-17,45.00,Food,New York
+C003,2024-01-18,299.99,Electronics,Chicago
+C002,2024-01-19,15.75,Food,Los Angeles
+C004,2024-01-20,199.00,Home,Miami
+C001,2024-01-21,67.25,Clothing,New York
+C005,2024-01-22,78.50,Food,Seattle
+C003,2024-01-23,150.00,Clothing,Chicago
+C006,2024-01-24,89.99,Electronics,Boston
+C004,2024-01-25,25.00,Food,Miami
+C007,2024-01-26,345.75,Home,Denver
+C002,2024-01-27,55.50,Food,Los Angeles
+C005,2024-01-28,120.00,Electronics,Seattle
+C008,2024-01-29,75.25,Clothing,Phoenix
+C006,2024-01-30,199.99,Home,Boston
+C001,2024-01-31,30.00,Food,New York
+C009,2024-02-01,89.50,Electronics,Dallas
+C007,2024-02-02,45.75,Food,Denver
+C010,2024-02-03,250.00,Clothing,Atlanta
