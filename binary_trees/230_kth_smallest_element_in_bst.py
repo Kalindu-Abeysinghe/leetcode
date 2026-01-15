@@ -33,6 +33,20 @@ class Solution:
                 
         return visited
     
+    def pre_order_traversal(self, root: Optional[TreeNode]) -> List[int]:
+        visited = []
+        stack = [root]
+        
+        while stack:
+            root = stack.pop()
+            visited.append(root.val)
+            
+            if root.left:
+                stack.append(root.left)
+
+            if root.right:
+                stack.append(root.right)
+                    
 root = TreeNode(1)
 root.left = TreeNode(2)
 root.right = TreeNode(3)
