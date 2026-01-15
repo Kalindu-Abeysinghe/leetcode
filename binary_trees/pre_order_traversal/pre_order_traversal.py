@@ -28,6 +28,9 @@ class Solution:
         visited = []
         stack = [root]
         
+        if root is None:
+            return []
+        
         while stack:
             root = stack.pop()
             visited.append(root.val)
